@@ -71,7 +71,7 @@ jobs:
 
       - name: Generate allure report
         run: |
-          pytest -s -v tests/ --alluredir=allure-report
+          pytest -s -v tests/ --alluredir=allure-report 
 
       - name: Get Allure history
         uses: actions/checkout@v2
